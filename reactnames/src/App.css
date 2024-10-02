@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color for the body and center the content */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+/* Style the main container */
+table, .contact-details {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Center the table and make it responsive */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+/* Style table rows */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Add hover effect for table rows */
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the table data */
+td {
+  padding: 10px;
+  color: #333;
+}
+
+/* Contact details styling */
+.contact-details {
+  text-align: center;
+}
+
+.contact-details h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
